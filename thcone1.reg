@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\thcone1]
+@="URL:thcone1 protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\thcone1\DefaultIcon]
+@="THC ONE.exe"
+
+[HKEY_CLASSES_ROOT\thcone1\Shell]
+
+[HKEY_CLASSES_ROOT\thcone1\Shell\Open]
+
+[HKEY_CLASSES_ROOT\thcone1\Shell\Open\Command]
+@="\"C:\THC ONE.exe\" -- \"%1\""
